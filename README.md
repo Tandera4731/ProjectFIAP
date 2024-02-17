@@ -6,4 +6,3 @@
 - [ ] Projetos
 - [ ] Conhecimentos
 - [ ] Orçamento
-- [ ] sdaadsa
