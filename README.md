@@ -4,7 +4,7 @@
 - [ ] Headers
     - [x] HTML
     - [x] CSS
-- [ ] Apresentação
+- [x] Apresentação
 - [ ] Projetos
 - [ ] Conhecimentos
 - [ ] Orçamento

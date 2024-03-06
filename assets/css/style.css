@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root{
+    --color-destak: #AF2635;
+    --color-black: #1B1B1B;
+    --color-white: #ECECEC;
+    --font-title: "Montserrat", sans-serif;
+    --font-body: "Open Sans", sans-serif;
+}
+
+header{
+    height: 100vh;
+}
+
 header::before{
     content: "";
     background-image: url("../images/header.png");
@@ -23,3 +35,28 @@ h2{
     font-size: 40px;
     font-weight: 600;
 }
+
+#Secao-Apresentacao{
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+}
+
+#Secao-Apresentacao img{
+    border-radius: 50%;
+}
+
+#Texto-Apresentacao{
+    color: var(--color-black);
+}
+
+#Texto-Apresentacao h2{
+    font-size: 2.5rem;
+    font-family: var(--font-title);
+}
+
+#Texto-Apresentacao p{
+    font-size: 1.5rem;
+    font-family: var(--font-body);
+}
+
