@@ -5,9 +5,9 @@ document.querySelector("#trezentos").addEventListener("change",calcular)
 document.querySelector("#quatrocentos").addEventListener("change",calcular)
 document.querySelector("#seicentos").addEventListener("change",calcular)
 
-document.querySelector("#ajudante").addEventListener("input", function() {
-    const tempo = document.querySelector("tempo").value
-    document.querySelector("label[for=tempo]").innerText = "Tempo: " + tempo
+document.querySelector("#tempo").addEventListener("input", function() {
+    const tempo = document.querySelector("#tempo").value
+    document.querySelector("label[for=tempo]").innerText = "Tempo: " + tempo + " horas"
     calcular()
 })
 
